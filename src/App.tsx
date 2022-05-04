@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { baseUrl } from './service/config';
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+
+        <p>baseUrl: {baseUrl}</p>
         <a
           className="App-link"
           href="https://reactjs.org"
